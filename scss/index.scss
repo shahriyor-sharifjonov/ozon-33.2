@@ -1152,7 +1152,7 @@ body{
   background: #fff;
   border-radius: 6px;
   padding: 15px 15px 15px 21px;
-  height: calc(100% - 110px);
+  height: calc(100% - 67px);
   width: 100%;
   margin-bottom: 11px;
 
@@ -1179,6 +1179,14 @@ body{
         color: #494A4A;
       }
 
+      &__item{
+
+        &.small{
+          max-height: 70px;
+          overflow-y: auto;
+        }
+      }
+
       &__trans{
         font-style: normal;
         font-weight: normal;
@@ -1189,7 +1197,7 @@ body{
 
       &__text{
         overflow-y: auto;
-        max-height: 200px;
+        max-height: 241px;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;

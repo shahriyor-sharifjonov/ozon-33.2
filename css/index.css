@@ -1272,7 +1272,7 @@ body {
   background: #fff;
   border-radius: 6px;
   padding: 15px 15px 15px 21px;
-  height: calc(100% - 110px);
+  height: calc(100% - 67px);
   width: 100%;
   margin-bottom: 11px;
 }
@@ -1295,6 +1295,10 @@ body {
   margin-bottom: 2px;
   color: #494A4A;
 }
+.sidebar__main-body__item.small {
+  max-height: 70px;
+  overflow-y: auto;
+}
 .sidebar__main-body__trans {
   font-style: normal;
   font-weight: normal;
@@ -1304,7 +1308,7 @@ body {
 }
 .sidebar__main-body__text {
   overflow-y: auto;
-  max-height: 200px;
+  max-height: 241px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
